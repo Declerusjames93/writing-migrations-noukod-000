@@ -1,4 +1,4 @@
-class AddDetails < ActiveRecord::Migration
+class UpdateStudents < ActiveRecord::Migration
   def change
     add_column :grade, :birthdate, :string
   end
